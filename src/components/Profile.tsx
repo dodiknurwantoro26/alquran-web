@@ -6,12 +6,12 @@ type ProfileProps = {
 
 function Profile ({gretting, name, avatar}: ProfileProps){
 return(
-    <div>
-        <div className="flex justify-between items-center">
-            <p className="flex-left">{gretting}</p>
-            <p className="flex-left text-2xl font-bold">{name}</p>
+    <div className="flex justify-between">
+        <div>
+            <p className="text-left">{gretting}</p>
+            <p className="text-left text-2xl font-bold">{name}</p>
         </div>
-        <img className="w-10 h-10" width="100px" src={avatar} alt="Profile User" />
+        <img  src={avatar} alt="Profile User" className="w-16 h-16" />
     </div>
 );
 }

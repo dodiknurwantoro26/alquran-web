@@ -1,6 +1,18 @@
 /* setup tailwindcss */
 @import "tailwindcss";
 
+@theme {
+  --color-primary: #A245FA;
+  --color-secondary: #F8F5FD;
+  --color-text: #322D4C;
+  --color-subtitle: #C2C4CA;
+  --color-accent: #FF7432;
+  --color-light: #FFFFFF;
+  --color-dark: #111E4E;
+  --color-background: #001140;
+
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -16,6 +28,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.testing {
+  color: red;
+}
 
 a {
   font-weight: 500;
